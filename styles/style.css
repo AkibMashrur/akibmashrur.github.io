@@ -1,0 +1,27 @@
+body {
+    font-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+  }
+
+h1 {
+    font-size: 2em; /* 40px/16=2.5em */
+    text-align: center;
+    font-style: bold;
+}
+
+h2 {
+    font-size: 1.2em; /* 30px/16=1.875em */
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1em; /* 30px/16=1.875em */
+    text-align: center;
+    font-style: normal;
+}
+
+p {
+    font-size: .7em; /* 14px/16=0.875em */
+}
