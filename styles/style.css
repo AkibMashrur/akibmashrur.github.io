@@ -22,6 +22,11 @@ h3 {
     font-style: normal;
 }
 
+iframe {
+    height: 100vh;
+    width: 100%;
+}
+
 p {
     font-size: .7em; /* 14px/16=0.875em */
 }
