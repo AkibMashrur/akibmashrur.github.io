@@ -1,7 +1,16 @@
+.main {
+    padding: 16px;
+    
+    /* margin-top: 30px; */
+     /* Used in this example to enable scrolling */
+  }
+
 body {
     font-size: 100%;
     font-family: "Times New Roman", Times, serif;
     color: black;
+    margin-top: 10em;
+    height: 1500px;
   }
 
 h1 {
@@ -30,3 +39,13 @@ iframe {
 p {
     font-size: .7em; /* 14px/16=0.875em */
 }
+
+.top-bar {
+    /* border-style: none none double none; */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
