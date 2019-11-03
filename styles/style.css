@@ -1,32 +1,25 @@
-.main {
-    padding: 16px;
-    
-    /* margin-top: 30px; */
-     /* Used in this example to enable scrolling */
-  }
-
 body {
     font-size: 100%;
     font-family: "Times New Roman", Times, serif;
     color: black;
-    margin-top: 10em;
+    margin-top: 1em;
     height: 1500px;
   }
 
 h1 {
-    font-size: 2em; /* 40px/16=2.5em */
+    font-size: 1.5em; /* 40px/16=2.5em */
     text-align: center;
     font-style: bold;
 }
 
 h2 {
-    font-size: 1.2em; /* 30px/16=1.875em */
+    font-size: 1em; /* 30px/16=1.875em */
     text-align: center;
     font-style: italic;
 }
 
 h3 {
-    font-size: 1em; /* 30px/16=1.875em */
+    font-size: .8em; /* 30px/16=1.875em */
     text-align: center;
     font-style: normal;
 }
@@ -43,9 +36,25 @@ p {
 .top-bar {
     /* border-style: none none double none; */
     text-align: center;
-    position: fixed;
+    /* position: relative; */
     width: 100%;
-    top: 0;
+    /* top: 0; */
     background-color: white;
 }
 
+#navbar {
+    overflow: hidden;
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: .5em;
+    padding-bottom:.5em;
+}
+  
+.sticky + .content {
+    padding-top: 5px;
+}
